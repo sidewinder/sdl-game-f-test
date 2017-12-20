@@ -1,0 +1,7 @@
+[package]
+name = "sdl2_game1"
+version = "0.1.0"
+authors = ["Skandar De Anaya <javascript_dreamer@outlook.com>"]
+
+[dependencies]
+sdl2 = "0.31.0"
