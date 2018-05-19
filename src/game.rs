@@ -34,7 +34,7 @@ impl Game {
         if fullscreen == true {
             is_fullscreem = FullscreenType::Desktop;
         }
-        canvas.window_mut().set_fullscreen(is_fullscreem);
+        canvas.window_mut().set_fullscreen(is_fullscreem).unwrap();
 
         let (size_width, size_hight) = canvas.output_size().unwrap();
 
